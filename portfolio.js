@@ -13,3 +13,9 @@ tl.from(".logo-svg g" , {x:50, opacity:0, stopColor: "#333", ease: "Back.easeOut
 //main-header
 //main-header-body
 //header-btn-wrap
+
+//-------------------footer-year-------------------------
+
+const footerYearNum = document.querySelector(".footer-year");
+
+footerYearNum.innerText = "2030";
