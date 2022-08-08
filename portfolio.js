@@ -17,5 +17,6 @@ tl.from(".logo-svg g" , {x:50, opacity:0, stopColor: "#333", ease: "Back.easeOut
 //-------------------footer-year-------------------------
 
 let footerYearNum = document.querySelector(".footer-year");
-//footerYearNum.innerText = "2030";
-footerYearNum.write(new Date().getFullYear());
+const thisYear = new Date();
+footerYearNum.innerText = thisYear.getFullYear();
+// footerYearNum.write(new Date().getFullYear());
